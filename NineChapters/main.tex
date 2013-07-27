@@ -1,0 +1,269 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath, graphicx, filecontents, url}
+\begin{filecontents}{shortbib.bib}
+@book{Boyer,
+  author={C. B. Boyer and U. C. Merzbach},
+  title={A History of Mathematics},
+  publisher={Wiley},
+  year={2011},
+  month={January},
+  edition={3}
+}
+@book{Chemla,
+  author={K. Chemla},
+  title={The History of Mathematical Proof in Ancient Traditions},
+  publisher={Cambridge University Press},
+  year={2012},
+  month={August},
+  edition={1}
+}
+@misc{O'Connor,
+  author={J. J. O'Connor and E. F. Robertson},
+  title={Nine Chapters on the Mathematical Art},
+  year={2003},
+  month={December},
+  howpublished={\url{http://www-groups.dcs.st-and.ac.uk/history/HistTopics/Nine\_chapters.html}}
+}
+@article{Mueller,
+  jstor_articletype = {research-article},
+  title = {Euclid's Elements and the Axiomatic Method},
+  author = {I. Mueller},
+  journal = {The British Journal for the Philosophy of Science},
+  jstor_issuetitle = {},
+  volume = {20},
+  number = {4},
+  jstor_formatteddate = {Dec., 1969},
+  pages = {pp. 289-309},
+  url = {http://www.jstor.org/stable/686258},
+  ISSN = {00070882},
+  abstract = {},
+  language = {English},
+  year = {1969},
+  publisher = {Oxford University Press on behalf of The British Society for the Philosophy of Science},
+  copyright = {Copyright © 1969 The British Society for the Philosophy of Science},
+}
+@misc{Joyce,
+  author={D. E. Joyce},
+  title={Euclid's Elements},
+  year={1998},
+  howpublished={\url{http://aleph0.clarku.edu/~djoyce/java/elements/Euclid.html}}
+}
+@book{Shen,
+  title = {The Nine Chapters on the Mathematical Art: Companion and Commentary},
+  isbn = {0198539363  9780198539360  7030061012  9787030061010},
+  shorttitle = {The Nine Chapters on the Mathematical Art},
+  language = {Translated from the Chinese.},
+  publisher = {Oxford University Press; Science Press},
+  author = {K. Shen, J. N. Crossley, and A. W.-C Lun}, 
+  year = {1999}
+}
+@misc{Wagner,
+  author={W. B. Wagner},
+  title={A proof of the Pythagorean Theorem by {Liu Hui}
+  (third century {AD})},
+  howpublished={\url{http://donwagner.dk/Pythagoras/Pythagoras.html}}
+}
+
+
+
+
+
+\end{filecontents}
+
+\title{The Origins of Algorithms: West v. East}
+\date{}
+\author{}
+
+
+\begin{document}
+\maketitle{}
+The algorithm appears to be one of the most primordial concepts available
+to mathematicians. It is this fundamental concepts that allow for the
+repeated abstractions that allow us to continually progress in mathematics
+without having to rediscover the knowledge of our predescessors. It is easy to
+forget that our notion of algorithms is in fact the result of thousands of years 
+of development, driven by culture, philosophy and history. In fact, it once took on
+radically different forms in the ancient western and eastern worlds.
+
+Two of the greatest influencers of our modern school of thought, are the 
+oriental mathematics of Ancient Asia, and the western mathematics harking
+from the Greeks. Interestingly, they both had canonical texts on Algorithms,
+these being \emph{The Nine Chapters on the Mathematical Art} and \emph{Euclid's Elements} 
+respectively. Despite the fact that both these texts discovered techniques to 
+solve many of the same problems, they featured fundamentally different philosophies towards mathematics.
+
+It is ideal therefore, to conduct a comparative study of the two texts. After analysis of their
+respective algorithms and proofs, it can be concluded that early western mathematics
+had a proof-first, epistemic philosophy, whereas early eastern mathematics was defined by an algorithm-first,
+pragmatic approach.
+
+\section{Historical Background}
+\subsection{The Nine Chapters}
+The \emph{Nine Chapters on the Mathematical Art} 
+ (hereby referred to in this papers as \emph{Nine Chapters})
+is well regarded as the canonical text of Ancient
+Chinese Mathematics. References to it throughout
+history indicate that it was the dominant
+authoritative text on mathematics not only in China
+but throughout Asia until around the 14th Century
+CE. It served not only as the leading textbook for
+education in mathematics, but also as the
+cornerstone work upon which other mathematical
+work was built. In this sense, it served a role
+similar to that of \emph{Euclid’s Elements}~\cite{Boyer}.
+
+The text is difficult to date as it was
+originally produced on bamboo strips, none of
+which have survived. Most historians estimate that
+the problems and methods in the text were
+completed around 100B.C., with further
+commentary added later~\cite{Chemla}.
+In total, the book includes 246 problems divided
+into chapters based on subject matter. Most of the
+text focuses on practical problems of the day,
+including surveying, goods exchange, engineering,
+and right-angled triangles~\cite{O'Connor}.
+Each problem is presented as an imagined
+scenario; it describes the situation with real world
+terms (doors, fields, grain) and then asks the reader
+to `Tell,’ requesting some specific answer to a
+problem posed.
+
+In the tradition of Chinese classical texts, the
+Nine Chapters has no specific author, but rather
+follows the ancient collaborative tradition in which
+many writers build upon the work of their
+predecessors~\cite{Boyer}. However, Liu Hui, a
+Chinese mathematician born around 220 AD, is of
+special notability as his commentary in the Nine
+Chapters provided many of the proofs that we are
+to analyze in this paper.
+
+\subsection{Euclid's Elements}
+
+\emph{Euclid’s Elements} (referred to in this paper as
+\emph{Elements}) is often regarded amongst the foundation of
+modern mathematics. For more than 2000 years
+after its creation, it was regarded as the cornerstone
+text on the fundamental principles of mathematics,
+including an extensive discourse on elementary
+arithmetic, geometry and algebra~\cite{Boyer}. The
+Greek philosopher Proclus likened the relationship
+between \emph{Elements} and the rest of Mathematics to
+that between the letters of the alphabet and
+language itself. One of its greatest innovations and
+the source of much of its praise was Euclid’s use of
+the `axiomatic method,' which has now established
+itself at the core of modern mathematics~\cite{Mueller}.
+
+Euclid of Alexandria, a Greek mathematician,
+originally authored \emph{Elements} around 300 BC.
+Though Euclid is often the sole author to whom the
+\emph{Elements} are attributed, he himself made no claim
+to originality. It is believed that Euclid drew heavily
+upon the work of his predecessors, though the
+arrangement of \emph{Elements} and many of its proofs
+were supplied by Euclid himself.
+
+\emph{Elements} is partitioned into thirteen chapters,
+which cover plane geometry, number theory, solid
+geometry and incommensurables. The axiomatic
+style is clear, as \emph{Elements} has no known preface
+and rather begins with twenty-three definitions
+followed by five axioms and five postulates. It is
+from this basis that Euclid begins the rigorous
+mathematical discourse that covers over 450
+propositions, each one progressing in small steps,
+building upon knowledge established in previous
+episodes~\cite{Joyce}.
+
+\section{Analysis of Algorithms and Proofs}
+
+The three problems to be comparatively
+analyzed in both \emph{Elements} and \emph{Nine Chapters} are
+(a) Pythagoras’ theorem, (b) square roots and (c)
+quadratic equations. These three problems were
+chosen because of the fundamental role they play
+in modern and ancient mathematics. Furthermore,
+they are all well-defined problems, which allow us
+to confidently identify equivalent sections of both
+texts, allowing for a more specific comparative
+study. Finally, the problems are addressed in
+different sections throughout both texts, and
+together they represent a good cross sectional
+representation of the style and form of both
+\emph{Elements} and \emph{Nine Chapters}.
+
+\subsection{Pythagoras' Theorem}
+A starting point for our investigation is an analysis
+of Pythagoras’ theorem; that the square of the
+length of the hypotenuse of the triangle is equal to
+the sum of the square of the other two sides.
+Pythagoras’ theorem has played a
+prominent role in most ancient mathematical
+systems.
+the theorem covers problems in the form:
+
+\begin{equation}
+  a^2 + b^2 = c^2
+\end{equation}
+
+\subsubsection{\emph{Nine Chapters:} Chapter Nine, Problems 1--3}
+The Pythagoras rule was well known in China
+under the name of the ‘gougu rule.’ The rule
+states:
+\begin{quote}
+  Add the squares of the gou and the gu, take the
+  square root of the sum giving the hypotenuse’.
+  Further, if the gu is subtracted from the square on
+  the hypotenuse. The square root of the remainder
+  is the gou. Further, if the gou is subtracted from
+  the square of the hypotenuse. The square root of
+  the remainder is the gu.
+\end{quote}
+Liu Hui's commentary adds that:
+\begin{quote}
+  The gou is shorter than the gu. The gou is
+  shorter than the hypotenuse. They apply in
+  various problems in terms of rates of proportion
+\end{quote}
+
+Here already we can see a strong understanding
+of algebra, in that one rule is sufficient to draw
+three corollaries from. The explanation of the
+gougu rule gives three alternative methods for its
+use, and then proves each method to be valid. The
+proof is as follows:
+\begin{quote}
+  Let the square on the gou be red in colour, the
+  square on the gu be blue. Let the deficit and
+  excess parts be mutually substituted into
+  corresponding positions, the other parts remain
+  unchanged~\cite{Shen}.
+\end{quote}
+
+Liu’s original diagram has since been lost, and
+there is ambiguity as its original structure.
+However, three academics have attempted valid
+reconstructions. Li Huang’s diagram is shown in
+Figure 2,~\cite{Shen} whereas Figure 3 is conceived
+by Donald B. Wanger, and Figure 4 is suggested by
+Professor Jöran Friberg~\cite{Wagner}.
+
+
+
+
+
+
+
+
+
+
+
+
+\bibliographystyle{unsrt}
+\bibliography{shortbib}
+
+\end{document}
+

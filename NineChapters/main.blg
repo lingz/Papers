@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Database file #1: shortbib.bib
+Name 1 in "K. Shen, J. N. Crossley, and A. W.-C Lun" has a comma at the end for entry Shen
+while executing---line 944 of file unsrt.bst
+You've used 7 entries,
+            1791 wiz_defined-function locations,
+            490 strings with 4489 characters,
+and the built_in function-call counts, 1165 in all, are:
+= -- 99
+> -- 40
+< -- 0
++ -- 17
+- -- 10
+* -- 49
+:= -- 185
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 54
+empty$ -- 140
+format.name$ -- 10
+if$ -- 270
+int.to.chr$ -- 0
+int.to.str$ -- 7
+missing$ -- 7
+newline$ -- 38
+num.names$ -- 7
+pop$ -- 37
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 23
+stack$ -- 0
+substring$ -- 33
+swap$ -- 7
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 8
+width$ -- 8
+write$ -- 74
+(There was 1 error message)
